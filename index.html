@@ -3,59 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edwin Kibet Kemboi | Software Engineer</title>
+    <title>Edwin Kibet Kemboi | Software Engineer - Backend Development Expert</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Results-driven backend software engineer with over 5 years of experience designing and implementing scalable software solutions for ERP, e-commerce, and technology platforms.">
+    <meta name="keywords" content="software engineer, backend developer, Java, Python, cloud technologies, API development, microservices, software development">
+    <meta name="author" content="Edwin Kibet Kemboi">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Edwin Kibet Kemboi | Software Engineer">
+    <meta property="og:description" content="Results-driven backend software engineer with over 5 years of experience in scalable software solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ekkemboi.github.io/">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Edwin Kibet Kemboi | Software Engineer">
+    <meta name="twitter:description" content="Results-driven backend software engineer with over 5 years of experience in scalable software solutions.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ekkemboi.github.io/">
+    
+    <!-- Favicon -->
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Edwin Kibet Kemboi",
+      "jobTitle": "Software Engineer",
+      "description": "Results-driven backend software engineer with over 5 years of experience",
+      "url": "https://ekkemboi.github.io/",
+      "sameAs": [
+        "https://github.com/ekkemboi",
+        "https://linkedin.com/in/edwin-kemboi-524756140"
+      ]
+    }
+    </script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">EK</div>
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <div class="logo" aria-label="Logo">EK</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" aria-label="About section">About</a></li>
+                <li><a href="#experience" aria-label="Experience section">Experience</a></li>
+                <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+                <li><a href="#contact" aria-label="Contact section">Contact</a></li>
             </ul>
-            <div class="theme-toggle">
+            <div class="theme-toggle" aria-label="Toggle dark mode">
                 <i class="fas fa-moon"></i>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
+    <main role="main">
+        <section class="hero" aria-labelledby="hero-heading">
             <div class="container">
-                <h1>Edwin Kibet Kemboi</h1>
+                <h1 id="hero-heading">Edwin Kibet Kemboi</h1>
                 <h2>Software Engineer</h2>
                 <p>Building scalable solutions with Java, Python, and cloud technologies.</p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn primary">Get in Touch</a>
-                    <a href="#projects" class="btn secondary">View Projects</a>
+                    <a href="#contact" class="btn primary" aria-label="Contact me">Get in Touch</a>
+                    <a href="#projects" class="btn secondary" aria-label="View my projects">View Projects</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://github.com/ekkemboi" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/edwin-kemboi-524756140" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:edwynkemboy@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/ekkemboi" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com/in/edwin-kemboi-524756140" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="mailto:edwynkemboy@gmail.com" aria-label="Email me"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="about">
+        <section id="about" class="about" aria-labelledby="about-heading">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
+                <h2 id="about-heading" class="section-title">About Me</h2>
                 <div class="about-content">
                     <div class="about-text">
                         <p>Results-driven backend software engineer with over 5 years of experience designing and implementing scalable software solutions for ERP, e-commerce, and technology platforms. Proficient in microservices, APIs, and cloud technologies, with a strong focus on agile methodologies and client satisfaction.</p>
                         <p>I specialize in building robust backend systems and APIs that power modern web and mobile applications. My experience spans across multiple industries and technologies, allowing me to bring a diverse perspective to solving complex problems.</p>
                     </div>
-                    <div class="about-image">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 500 500" fill="none" class="developer-svg">
+                    <div class="about-image" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 500 500" fill="none" class="developer-svg" role="img" aria-label="Developer illustration">
                             <!-- Background Circle -->
                             <circle cx="250" cy="250" r="250" fill="#f0f4f8" />
                             
